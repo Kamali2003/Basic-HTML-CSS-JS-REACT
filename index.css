@@ -15,6 +15,7 @@ h1,h2,h3{
 
 }
 
+
 .grid-container{
     display:grid;
     grid-template-columns: auto;
@@ -54,4 +55,8 @@ h1,h2,h3{
   justify-content: center;
   align-items: center;
   flex: 1 1 200px; 
+}
+.jeenu{
+  color:pink;
+  
 }
