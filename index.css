@@ -1,6 +1,7 @@
 body {    
   background-image: url("moon.jpg");  
-  background-color: lightgray;  
+  background-color: lightgray; 
+  font-size: 1.5rem; 
   } 
   
 .center{
@@ -8,6 +9,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   width:20%;
+}
+h1,h2,h3{
+  color: pink;
+
 }
 
 .grid-container{
@@ -24,9 +29,10 @@ body {
 }
 
 .container{
-  border: 4px solid pink;
-  max-width: 500px;
-  height: 300px;
+  border: 4px solid violet;
+  color:beige;
+  max-width:150 ;
+  min-height: 300;
   margin-inline: auto;
   display: flex;
   gap: 1rem;
@@ -39,9 +45,9 @@ body {
 
 .box{
   /* min-width: 100px; */
-  height: 50px;
+  height: 100px;
   background-color: aqua;
-  color:black;
+  color:pink;
   font-size: 2rem;
   padding: 0.5rem; 
   display: flex;
