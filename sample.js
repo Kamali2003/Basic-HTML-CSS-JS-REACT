@@ -14,7 +14,7 @@ console.log("this is the value declared in the let type:",b)
 const r=20;
 console.log("this is the value declared in the const :",r)
 
-a=10
+f=10
 if( a === 0 ){
     console.log("the number is zero, we are adding one to it",a)
     a=a+1
@@ -34,11 +34,31 @@ while(i< a){
 }
 
 //for loop
-a=10
-for(i=0;i<a;i++){
+e=10
+for(i=0;i<e;i++){
     console.log(i)
 }
 
 //array
 array=[10,20]
-array.forEach(element => console.log(element))
+array.forEach(element => console.log(element)) 
+
+//object and class
+m=() => console.log("Hello, World")
+m()
+class key{
+    abcd="alphabet";
+    diff(){
+        console.log("believe in god")
+    }
+    sum(){
+        console.log("mithul")
+    }
+
+}
+m=new Object()
+m.name="vidhya"
+console.log(m)
+object1=new key()
+console.log(object1.abcd)
+object1.sum()

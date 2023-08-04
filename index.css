@@ -1,7 +1,8 @@
 body {    
   background-image: url("moon.jpg");  
   background-color: lightgray; 
-  font-size: 1.5rem; 
+  font-size: 1.5em;
+  color:white 
   } 
   
 .center{
@@ -14,27 +15,47 @@ h1,h2,h3{
   color: pink;
 
 }
+a{
+  color: pink;
+}
 
+p span{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+  border-radius: 50%;
+  border: 6px solid pink;
+}
 
 .grid-container{
+  
     display:grid;
-    grid-template-columns: auto;
+    background-color: aqua;
+    border:4px solid violet;
+    place-content: center;
+    grid-auto-rows: 50px; 
+    gap:0.5rem;
+    max-width:300 ;
+    min-height: 150;
 }
+   
 .grid-item{
    background-color:aqua;
    padding:10px;
    text-align: center;
    font-size: 24px;
+   color:darkorchid;
    width:500px;
    
 }
 
+
 .container{
   border: 4px solid violet;
-  color:beige;
-  max-width:150 ;
-  min-height: 300;
-  margin-inline: auto;
+  max-width:300 ;
+  min-height: 150;
+  /* margin-inline: auto; */
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -42,13 +63,11 @@ h1,h2,h3{
   
 }
   
-
-
 .box{
   /* min-width: 100px; */
   height: 100px;
   background-color: aqua;
-  color:pink;
+  color:darkorchid;
   font-size: 2rem;
   padding: 0.5rem; 
   display: flex;
@@ -56,7 +75,11 @@ h1,h2,h3{
   align-items: center;
   flex: 1 1 200px; 
 }
+
 .jeenu{
   color:pink;
-  
 }
+
+
+
+

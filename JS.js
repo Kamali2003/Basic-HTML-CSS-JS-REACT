@@ -5,8 +5,8 @@ for (var ele  in array){
     console.log(array[ele])
 }
 console.log("after change:")
-/* array[0]=Date.UTC() */
-array.push("3rd Years")
+/* array[0]=Date.UTC()  */
+/array.push("3rd Years")
 
 array.pop()
 array.pop()
@@ -26,11 +26,11 @@ else{
 
 for (var ele of array){
     console.log(ele)
-}
+} 
 
 //objects
 
-a={
+ a={
     car:"audi",
     model:"AB",
     airbags: '0',
@@ -58,15 +58,13 @@ for (var ele in a){
             console.log(val+ ":" + a [ele][val])
         }
     }
-}
+} 
 
 //function
-function fun_name(){
+ function fun_name(){
     console.log(a+ b+5 +"ksp" +5+5)
     return a+ b+5 +"ksp" +5+5
 }
 fun_name(5,5)
-
-
-//fib
+ 
 
