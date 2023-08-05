@@ -1,6 +1,9 @@
 body {    
-  background-image: url(moon.jpg);
-  background-color: lightgray; 
+ 
+  background-image: url('moon.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   font-size: 1.5em;
   color:white 
   } 
